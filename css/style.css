@@ -13,13 +13,14 @@ h3{
     font-size: 24;
 }
 header{
+    overflow: fixed;
     margin-left: 100px;
-    position:fixed;
     z-index: 3;
     text-align: center;
     width: 960px;
-    height: 200px;
+    height: 115px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
 }
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -35,7 +36,7 @@ div{
 }
 img{
     float: left;
-    margin: 3%;
+    margin: 1%;
 }
 footer{
     position: sticky;
@@ -43,6 +44,20 @@ footer{
     width: 100%;
     float: left;
     text-align: center;
+}
+a{
+    color: #777777;
+    text-decoration: none;
+}
+textarea{
+    width: 480px;
+    height: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
 }
 .header1{
     border-style: thin;
@@ -52,25 +67,48 @@ footer{
 .header2{
     margin-left: 40%;
     width: 10%;
-    border-style: thin;
+    border-style: thick;
     background-color: #ffffff;
 }
 .header3{
     width: 15%;
-    border-style: thin;
+    border-style: thick;
     background-color: #ffffff;
 }
 .header4{
     width: 10%;
-    border-style: thin;
+    border-style: thick;
     background-color: #ffffff;
 }
 
 .main{
     margin-left: 100px;
-    margin-top: 100px;
     width: 960px;
 }
 .port{
     text-align: center;
+}
+#row1{
+    width: 100%;
+    height: 480px;
+}
+#img1{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+#img2{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+#img3{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+#img4{
+    width: 45%;
+    height: 100%;
+    float: right;
 }
