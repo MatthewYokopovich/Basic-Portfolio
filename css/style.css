@@ -44,6 +44,7 @@ footer{
     width: 100%;
     float: left;
     text-align: center;
+    background-color: #666666;
 }
 a{
     color: #777777;
@@ -84,6 +85,7 @@ textarea{
 .main{
     margin-left: 100px;
     width: 960px;
+    background-color: #FFFFFF;
 }
 .port{
     text-align: center;
